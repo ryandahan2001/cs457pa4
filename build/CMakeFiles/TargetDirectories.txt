@@ -1,7 +1,7 @@
-/home/student/Desktop/github/CS457/build/CMakeFiles/install/strip.dir
-/home/student/Desktop/github/CS457/build/CMakeFiles/install/local.dir
-/home/student/Desktop/github/CS457/build/CMakeFiles/install.dir
-/home/student/Desktop/github/CS457/build/CMakeFiles/list_install_components.dir
-/home/student/Desktop/github/CS457/build/CMakeFiles/rebuild_cache.dir
-/home/student/Desktop/github/CS457/build/CMakeFiles/edit_cache.dir
-/home/student/Desktop/github/CS457/build/CMakeFiles/proj1.dir
+/home/student/Desktop/github/cs457pa4/build/CMakeFiles/install/strip.dir
+/home/student/Desktop/github/cs457pa4/build/CMakeFiles/install/local.dir
+/home/student/Desktop/github/cs457pa4/build/CMakeFiles/install.dir
+/home/student/Desktop/github/cs457pa4/build/CMakeFiles/list_install_components.dir
+/home/student/Desktop/github/cs457pa4/build/CMakeFiles/rebuild_cache.dir
+/home/student/Desktop/github/cs457pa4/build/CMakeFiles/edit_cache.dir
+/home/student/Desktop/github/cs457pa4/build/CMakeFiles/proj1.dir

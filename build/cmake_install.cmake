@@ -1,4 +1,4 @@
-# Install script for directory: /home/student/Desktop/github/CS457
+# Install script for directory: /home/student/Desktop/github/cs457pa4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,39 +38,39 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  if(EXISTS "$ENV{DESTDIR}/home/student/Desktop/github/CS457/devel/bin/proj1" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/Desktop/github/CS457/devel/bin/proj1")
+  if(EXISTS "$ENV{DESTDIR}/home/student/Desktop/github/cs457pa4/devel/bin/proj1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/Desktop/github/cs457pa4/devel/bin/proj1")
     file(RPATH_CHECK
-         FILE "$ENV{DESTDIR}/home/student/Desktop/github/CS457/devel/bin/proj1"
+         FILE "$ENV{DESTDIR}/home/student/Desktop/github/cs457pa4/devel/bin/proj1"
          RPATH "")
   endif()
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/Desktop/github/CS457/devel/bin/proj1")
+   "/home/student/Desktop/github/cs457pa4/devel/bin/proj1")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/Desktop/github/CS457/devel/bin" TYPE EXECUTABLE FILES "/home/student/Desktop/github/CS457/build/proj1")
-  if(EXISTS "$ENV{DESTDIR}/home/student/Desktop/github/CS457/devel/bin/proj1" AND
-     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/Desktop/github/CS457/devel/bin/proj1")
+file(INSTALL DESTINATION "/home/student/Desktop/github/cs457pa4/devel/bin" TYPE EXECUTABLE FILES "/home/student/Desktop/github/cs457pa4/build/proj1")
+  if(EXISTS "$ENV{DESTDIR}/home/student/Desktop/github/cs457pa4/devel/bin/proj1" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/student/Desktop/github/cs457pa4/devel/bin/proj1")
     if(CMAKE_INSTALL_DO_STRIP)
-      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/student/Desktop/github/CS457/devel/bin/proj1")
+      execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}/home/student/Desktop/github/cs457pa4/devel/bin/proj1")
     endif()
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/student/Desktop/github/CS457/devel/lib/bin")
+   "/home/student/Desktop/github/cs457pa4/devel/lib/bin")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/student/Desktop/github/CS457/devel/lib" TYPE DIRECTORY FILES "/home/student/Desktop/github/CS457/devel/bin" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$")
+file(INSTALL DESTINATION "/home/student/Desktop/github/cs457pa4/devel/lib" TYPE DIRECTORY FILES "/home/student/Desktop/github/cs457pa4/devel/bin" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/[^/]*\\.hpp$")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -81,5 +81,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/student/Desktop/github/CS457/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/student/Desktop/github/cs457pa4/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

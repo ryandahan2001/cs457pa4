@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/student/Desktop/github/CS457/include 
+CXX_INCLUDES = -I/home/student/Desktop/github/cs457pa4/include 
 

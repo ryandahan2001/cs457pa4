@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/Desktop/github/CS457/src/driver.cpp" "/home/student/Desktop/github/CS457/build/CMakeFiles/proj1.dir/src/driver.cpp.o"
+  "/home/student/Desktop/github/cs457pa4/src/driver.cpp" "/home/student/Desktop/github/cs457pa4/build/CMakeFiles/proj1.dir/src/driver.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
