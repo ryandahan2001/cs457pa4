@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17  -rdynamic CMakeFiles/proj1.dir/src/driver.cpp.o  -o proj1 
